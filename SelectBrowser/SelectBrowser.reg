@@ -1,0 +1,27 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SelectBrowser.http]
+@="SelectBrowser URL"
+"FriendlyTypeName"="SelectBrowser URL"
+[HKEY_CLASSES_ROOT\SelectBrowser.http\DefaultIcon]
+@="C:\\Users\\odubchak\\Documents\\Visual Studio 2010\\Projects\\SelectBrowser\\SelectBrowser\\bin\\Release\\SelectBrowser.exe,0"
+[HKEY_CLASSES_ROOT\SelectBrowser.http\shell\open\command]
+@="\"C:\\Users\\odubchak\\Documents\\Visual Studio 2010\\Projects\\SelectBrowser\\SelectBrowser\\bin\\Release\\SelectBrowser.exe\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\SelectBrowser]
+@="SelectBrowser"
+[HKEY_LOCAL_MACHINE\SOFTWARE\SelectBrowser\Capabilities]
+"ApplicationDescription"="SelectBrowser."
+"ApplicationIcon"="C:\\Users\\odubchak\\Documents\\Visual Studio 2010\\Projects\\SelectBrowser\\SelectBrowser\\bin\\Release\\SelectBrowser.exe,0"
+"ApplicationName"="SelectBrowser"
+[HKEY_LOCAL_MACHINE\SOFTWARE\SelectBrowser\Capabilities\URLAssociations]
+"http"="SelectBrowser.http"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\SelectBrowser\DefaultIcon]
+@="C:\\Users\\odubchak\\Documents\\Visual Studio 2010\\Projects\\SelectBrowser\\SelectBrowser\\bin\\Release\\SelectBrowser.exe,0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\RegisteredApplications]
+"SelectBrowser"="SOFTWARE\SelectBrowser\Capabilities\"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\html\UserChoice]
+"Progid"="SelectBrowser.http"
